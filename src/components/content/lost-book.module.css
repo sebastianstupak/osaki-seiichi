@@ -18,14 +18,14 @@
 
 .coverWrapper {
   position: absolute;
-  left: 20%;
+  left: 60%;
 
   height: 160px;
   width: 160px;
   background-color: green;
 }
 
-.creatureContainer {
+.tigerContainer {
   position: relative;
   width: 100%;
   height: 100px;
@@ -33,9 +33,9 @@
   margin-bottom: 15vh;
 }
 
-.creatureWrapper {
+.tigerWrapper {
   position: absolute;
-  right: 0;
+  left: 0;
 
   height: 100px;
   width: 100px;
@@ -55,5 +55,5 @@
 
 .eerieText {
   position: absolute;
-  right: 30%;
+  left: 25%;
 }

@@ -13,13 +13,13 @@ const LostBookContent: React.FC = () => {
           />
         </div>
       </div>
-      <div className={styles.creatureContainer}>
-        <div className={styles.creatureWrapper}>Hidden naga</div>
+      <div className={styles.tigerContainer}>
+        <div className={styles.tigerWrapper}>Hidden tiger</div>
       </div>
       <div className={styles.eerieTextContainer}>
         <span className={styles.eerieText}>
-          strange noises coming from the city
-          <br />~ they were so frightening, yet so intriguing
+          text
+          <br />~ text
         </span>
       </div>
     </div>
