@@ -15,7 +15,7 @@ const BackgroundGradient: React.FC<BackgroundGradientProps> = ({
   children,
   sections = [
     { color: "#bdd9ad", height: "120vh" },
-    { color: "#c2d1d6", height: "80vh" },
+    { color: "#c2d1d6", height: "100vh" },
   ],
 }) => {
   return (

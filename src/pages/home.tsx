@@ -3,6 +3,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import BackgroundGradient from "../components/background-gradient";
 import PromptScroll from "../components/prompt-scroll";
+import Content from "../components/content";
 
 const Home = () => {
   return (
@@ -10,13 +11,7 @@ const Home = () => {
       <Header />
       <main className={styles.main}>
         <BackgroundGradient>
-          <div>test</div>
-          <div>test</div>
-          <div>test</div>
-          <div>test</div>
-          <div>test</div>
-          <div>test</div>
-          <div>test</div>
+          <Content />
         </BackgroundGradient>
       </main>
       <PromptScroll />

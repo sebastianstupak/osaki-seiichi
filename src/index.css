@@ -2,6 +2,9 @@ body,
 head {
   height: 100%;
   width: 100%;
+  overflow: auto;
+  background-color: #bdd9ad;
+
   margin: 0;
   padding: 0;
 
@@ -9,6 +12,8 @@ head {
   -moz-osx-font-smoothing: grayscale;
 
   font-family: "Imbue", serif;
+
+  overscroll-behavior: none;
 }
 
 p,
