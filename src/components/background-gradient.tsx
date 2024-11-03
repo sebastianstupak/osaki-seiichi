@@ -1,21 +1,29 @@
+// BackgroundGradient.tsx
 import React from "react";
 import styles from "./background-gradient.module.css";
 
 interface Section {
   color: string;
   height: string;
+  children?: React.ReactNode;
 }
 
 interface BackgroundGradientProps {
-  children: React.ReactNode;
   sections?: Section[];
 }
 
 const BackgroundGradient: React.FC<BackgroundGradientProps> = ({
-  children,
   sections = [
-    { color: "#bdd9ad", height: "120vh" },
-    { color: "#c2d1d6", height: "100vh" },
+    {
+      color: "#cbd671",
+      height: "120vh",
+      children: null,
+    },
+    {
+      color: "#c2d1d6",
+      height: "100vh",
+      children: null,
+    },
   ],
 }) => {
   return (
@@ -34,12 +42,9 @@ const BackgroundGradient: React.FC<BackgroundGradientProps> = ({
                 : section.color,
           }}
         >
-          <div className={styles.contentContainer}>
-            {index === 0 && children}
-          </div>
+          <div className={styles.contentContainer}>{section.children}</div>
         </div>
       ))}
-
       <div className={styles.grainOverlay}>
         <div className={styles.grainTexture} />
       </div>

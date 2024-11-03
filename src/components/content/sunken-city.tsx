@@ -1,10 +1,17 @@
+import Cover from "./cover";
 import styles from "./sunken-city.module.css";
 
 const SunkenCityContent: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.coverContainer}>
-        <div className={styles.coverWrapper}>Album cover</div>
+        <div className={styles.coverWrapper}>
+          <Cover
+            srcSmall="media/sunken-city-cover-250x250.png"
+            src="media/sunken-city-cover.png"
+            alt="The tale of a long forgotten sunken city"
+          />
+        </div>
       </div>
       <div className={styles.creatureContainer}>
         <div className={styles.creatureWrapper}>Hidden naga</div>
