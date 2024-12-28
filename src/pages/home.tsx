@@ -5,6 +5,7 @@ import BackgroundGradient from "../components/background-gradient";
 import PromptScroll from "../components/prompt-scroll";
 import LostBookContent from "../components/content/lost-book";
 import SunkenCityContent from "../components/content/sunken-city";
+import NewAlbumContent from "../components/content/new-album";
 
 const Home = () => {
   return (
@@ -13,10 +14,15 @@ const Home = () => {
       <main className={styles.main}>
         <BackgroundGradient
           sections={[
+            // {
+            //   color: "#cbd671",
+            //   height: "120vh",
+            //   children: <LostBookContent />,
+            // },
             {
               color: "#cbd671",
               height: "120vh",
-              children: <LostBookContent />,
+              children: <NewAlbumContent />,
             },
             {
               color: "#c2d1d6",

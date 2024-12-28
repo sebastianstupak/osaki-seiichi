@@ -26,7 +26,7 @@ const PromptScroll = () => {
       style={{
         opacity,
         visibility: opacity === 0 ? "hidden" : "visible",
-        transform: `translateY(${(1 - opacity) * 20}px)`, // Optional: slight movement while fading
+        transform: `  translateY(${(1 - opacity) * 20}px)`, // Optional: slight movement while fading
       }}
     >
       <div className={styles.content}>

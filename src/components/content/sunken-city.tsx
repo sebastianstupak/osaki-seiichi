@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Cover from "./cover";
 import styles from "./sunken-city.module.css";
 
@@ -14,7 +15,14 @@ const SunkenCityContent: React.FC = () => {
         </div>
       </div>
       <div className={styles.creatureContainer}>
-        <div className={styles.creatureWrapper}>Hidden naga</div>
+        <Link to={"sunken-city"} className={styles.creatureWrapper}>
+          <img
+            className={styles.creature}
+            src="media/sunken-city-creature-small.png"
+            alt="Creature"
+            draggable="false"
+          />
+        </Link>
       </div>
       <div className={styles.eerieTextContainer}>
         <span className={styles.eerieText}>

@@ -1,7 +1,7 @@
 import styles from "./not-found.module.css";
 
-const Home = () => {
+const NotFound = () => {
   return <div className={styles.container}>Not found</div>;
 };
 
-export default Home;
+export default NotFound;

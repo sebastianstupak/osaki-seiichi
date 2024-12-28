@@ -11,14 +11,14 @@
 .coverContainer {
   position: relative;
   width: 100%;
-
   height: 160px;
   margin-bottom: 10vh;
+
+  left: 55%;
 }
 
 .coverWrapper {
   position: absolute;
-  left: 60%;
 
   height: 160px;
   width: 160px;
