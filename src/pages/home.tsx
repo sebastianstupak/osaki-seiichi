@@ -3,7 +3,6 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import BackgroundGradient from "../components/background-gradient";
 import PromptScroll from "../components/prompt-scroll";
-import LostBookContent from "../components/content/lost-book";
 import SunkenCityContent from "../components/content/sunken-city";
 import NewAlbumContent from "../components/content/new-album";
 
