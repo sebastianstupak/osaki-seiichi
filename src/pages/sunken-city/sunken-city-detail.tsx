@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const SunkenCityDetail = () => {
   const navigate = useNavigate();
   const handleBack = () => {
-    navigate(-1);
+    navigate("/");
   };
   return (
     <div className={styles.containerWrapper}>
